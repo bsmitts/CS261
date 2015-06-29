@@ -1,0 +1,20 @@
+struct BSTIterator {
+    struct DynArr  *stk;
+    struct BSTree  *tree;
+}; 
+void BSTIteratorInit (struct BSTree *tree, struct BSTIterator *itr) { 
+} 
+int BSTIteratorHasNext (struct BSTIterator * itr) { 
+} 
+
+TYPE BSTIteratorNext (struct BSTIterator *itr) { 
+} 
+void _slideLeft(struct Node *cur, struct BSTIterator *itr) 
+{ 
+While(cur != null) 
+{ 
+  dynArrayPush(Itr->stk, cur->val); 
+  cur = cur->left;
+ } 
+} 
+

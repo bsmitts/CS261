@@ -1,0 +1,17 @@
+Run your program with each of the five example graph and compute the reachability between each pair of
+nodes using both BFS and DFS on each. Then answer the following questions:
+
+1. How is the graph stored in the provided code -- adjacency matrix or edge list?
+
+Edge list
+
+2. Which of the graphs are connected? How can you tell?
+
+We are given the number of vertices and edges in the graph.  
+
+3. Imagine that we ran each search in the other direction (from destination to source, instead of source to
+destination) -- would the output change at all? What if the graphs were directed graphs?
+
+4. What are a few pros and cons of DFS vs. BFS?
+
+5. What's the Big O execution time to determine if a node is reachable from another node?
